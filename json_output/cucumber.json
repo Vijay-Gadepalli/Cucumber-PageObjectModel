@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login Test",
+        "description": "",
+        "id": "free-crm-login-test-using-bdd-framework;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15887412664,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user opens the browser and launches the app",
+            "match": {
+              "location": "LoginSteps.user_opens_the_bowser_and_launches_the_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57289936,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19036446258,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the valid username and password and clicks on the login button",
+            "match": {
+              "location": "LoginSteps.user_enters_the_valid_username_and_password_and_clicks_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 202570601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "home page should display",
+            "match": {
+              "location": "LoginSteps.home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Test using BDD framework",
+    "description": "",
+    "id": "free-crm-login-test-using-bdd-framework",
+    "keyword": "Feature",
+    "uri": "C:/Users/Vijay Gadepalli/Desktop/Eclipse_Workspace/CRM_BDD/src/main/java/com/qa/Features/login.feature"
+  }
+]

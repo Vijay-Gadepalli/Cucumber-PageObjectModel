@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.183719">
+<testcase classname="Free CRM Login Test using BDD framework" name="Login Test" time="35.183719">
+<system-out><![CDATA[Given user opens the browser and launches the app...........................passed
+When user is on login page..................................................passed
+Then user enters the valid username and password and clicks on the login button.passed
+Then home page should display...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

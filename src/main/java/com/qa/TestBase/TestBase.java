@@ -21,7 +21,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 					prop = new Properties();
 					String filepath= System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\configurations\\config.properties";
 					FileInputStream ip = new FileInputStream(filepath);
-					prop.load(ip);				
+					prop.load(ip);
 				    }
 				
 				catch(FileNotFoundException e)
@@ -39,7 +39,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		{
 			if(prop.getProperty("browser").contains("chrome"))
 			{
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\512528\\Desktop\\Vijay_Personal\\Jars\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "C:\\Users\\Vijay Gadepalli\\Desktop\\Jars\\chromedriver.exe");
 				driver = new ChromeDriver();			
 			}
 			
